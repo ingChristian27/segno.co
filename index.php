@@ -43,9 +43,25 @@ require('contents.php');
         
         <?php include('html/about.php'); ?>
         
-        <?php include('html/services.php'); ?>
+        <div class="container">
         
-        <?php include('html/portfolio.php'); ?>
+            <div class="row">
+
+                <div class="col-md-7">
+
+                    <?php include('html/services.php'); ?>
+
+                </div>
+                
+                <div class="col-md-5">
+
+                <?php include('html/portfolio.php'); ?>
+                
+                </div>
+
+            </div>
+        
+        </div>
         
         <?php include('html/contact.php'); ?>
         
