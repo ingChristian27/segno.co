@@ -1,3 +1,6 @@
+body{
+	color: #fff;
+}
 #cover {
     background: <?php echo $colors['white'] ?>;
     padding-top: 19px;
@@ -32,4 +35,35 @@
 	height: 108px;
 	display: block;
 	background-position: center center;
+	color: #fff;
+	font-size: 26px;
+}
+#about{
+	text-align: center;
+}
+#about h2{
+	font-weight: bold;
+	font-size: 38px;
+}
+#about p{
+	font-size: 18px;
+	font-weight: normal;
+}
+#services .panel-default>.panel-heading {
+	color: #fff;
+	font-size: 18px;
+	background-color: #0e1d1a;
+	border-color: none;
+	margin-bottom: 4px;
+}
+#services  .panel{
+	background-color: #1C3A35;
+	border: none;
+}
+#services .collapse.in, #services .collapsing, #services a.collapse.in, #services a.collapsing{
+	visibility: hidden;
+}
+a:hover, a:focus {
+
+text-decoration: none;
 }
