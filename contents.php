@@ -14,6 +14,7 @@ $about = array('title' => 'Quienes Somos',
                'text' => 'Dedicamos todo nuestro esfuerzo a la entrega de proyectos a la medida de las necesidades de nuestros clientes y teniendo siempre en cuenta la importancia del cumplimiento, presupuesto y calidad en el diseño, funcionalidad y sostenibilidad del sitio.',
                'img' => 'images/about-img.jpg');
 
+// SERVICES
 $services = array('title' => 'Servicios',
                   'web_design' => array('title' => 'Diseño gráfico de sitios web', 'text' => ''),
                   'web_dev' => array('title' => 'Desarrollo web en HTML5', 'text' => ''),
@@ -21,6 +22,9 @@ $services = array('title' => 'Servicios',
                   'back_end' => array('title' => 'Programación de web apps y bases de datos', 'text' => ''),
                   'support' => array('title' => 'Soporte y asesoría', 'text' => '')
                  );
+
+// PORTFOLIO
+$portfolio = array('title' => 'Portafolio');
 
 // FOOTER
 $copyright = '© 2015 SEGNO.CO. Todos los derechos reservados';
