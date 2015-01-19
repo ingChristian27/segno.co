@@ -14,7 +14,6 @@
                    
                     <a data-toggle="collapse" data-parent="#servicios-accordion" href="#collapse<?php echo $key ?>" aria-expanded="true" aria-controls="collapse<?php echo $key ?>" <?php if ($key !== 0) echo 'class="collapsed"' ?>>
                         <?php echo $value['title']; ?>
-                        
                     </a>
                     
                 </h4>
@@ -23,7 +22,7 @@
             
             <div id="collapse<?php echo $key ?>" class="panel-collapse collapse <?php if ($key === 0) echo 'in' ?>" role="tabpanel" aria-labelledby="heading<?php echo $key ?>">
                 <div class="panel-body">
-                    <?php echo $value['text']; ?>
+                    <?php echo $value['desc']; ?>
                 </div>
             </div>
                 

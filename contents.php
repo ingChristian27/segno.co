@@ -16,16 +16,21 @@ $about = array('title' => 'Quienes Somos',
 
 // SERVICES
 $services = array('title' => 'Servicios',
-                  'tabs' => array(array('title' => 'Diseño gráfico de sitios web', 'text' => ''),
-                                  array('title' => 'Desarrollo web en HTML5', 'text' => ''),
-                                  array('title' => 'Programación de animaciones e interacciones', 'text' => ''),
-                                  array('title' => 'Programación de web apps y bases de datos', 'text' => ''),
-                                  array('title' => 'Soporte y asesoría', 'text' => '')
+                  'tabs' => array(array('title' => 'Diseño gráfico de sitios web', 'desc' => ''),
+                                  array('title' => 'Desarrollo web en HTML5', 'desc' => ''),
+                                  array('title' => 'Programación de animaciones e interacciones', 'desc' => ''),
+                                  array('title' => 'Programación de web apps y bases de datos', 'desc' => ''),
+                                  array('title' => 'Soporte y asesoría', 'desc' => '')
                              )
                  );
 
 // PORTFOLIO
-$portfolio = array('title' => 'Portafolio');
+$portfolio = array('title' => 'Portafolio',
+                   'list' => array(array('title' => 'NombreProyecto1.com', 'desc' => 'Descripción', 'imgURL' => 'images/portfolio-01.jpg'),
+                                   array('title' => 'NombreProyecto2.com', 'desc' => 'Descripción', 'imgURL' => 'images/portfolio-02.jpg'),
+                                   array('title' => 'NombreProyecto3.com', 'desc' => 'Descripción', 'imgURL' => 'images/portfolio-03.jpg')
+                                  )
+                  );
 
 // FOOTER
 $copyright = '© 2015 SEGNO.CO. Todos los derechos reservados';
