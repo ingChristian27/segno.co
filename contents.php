@@ -26,9 +26,7 @@ $services = array('title' => 'Servicios',
 
 // PORTFOLIO
 $portfolio = array('title' => 'Portafolio',
-                   'list' => array(array('title' => 'NombreProyecto1.com', 'desc' => 'Descripción', 'imgURL' => 'images/portfolio-01.jpg'),
-                                   array('title' => 'NombreProyecto2.com', 'desc' => 'Descripción', 'imgURL' => 'images/portfolio-02.jpg'),
-                                   array('title' => 'NombreProyecto3.com', 'desc' => 'Descripción', 'imgURL' => 'images/portfolio-03.jpg')
+                   'list' => array(array('title' => 'NombreProyecto1.com', 'desc' => 'Descripción', 'imgURL' => 'images/portfolio-01.jpg')
                                   )
                   );
 
