@@ -1,5 +1,4 @@
 <div id="cover">
-<<<<<<< HEAD
    
     <div class="">
 
@@ -18,6 +17,3 @@
     </div>
     
 </div>
-
-
->>>>>>> origin/master
