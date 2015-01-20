@@ -20,6 +20,7 @@
 	text-transform: uppercase;
 	background-image: url("images/background_lang.png");
 	background-repeat: repeat;
+	margin-right: 5%;
 
 }
 #logo {
