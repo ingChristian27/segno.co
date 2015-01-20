@@ -23,3 +23,11 @@
 	width: 470px;
 	margin-top: 4px;
 }
+
+div#sections {
+background-image: url('images/complemento.jpg');
+background-repeat: no-repeat;
+background-position: center bottom; 
+background-color: #1c3a35;
+padding: 97px 0px;
+}

@@ -42,26 +42,30 @@ require('contents.php');
         <?php include('html/cover.php'); ?>
         
         <?php include('html/about.php'); ?>
-        
-        <div class="container">
-        
-            <div class="row">
 
-                <div class="col-md-7">
+        <div id="sections">
+	        <div class="container">
+	        
+	            <div class="row">
 
-                    <?php include('html/services.php'); ?>
+	                <div class="col-md-7">
 
-                </div>
-                
-                <div class="col-md-5">
+	                    <?php include('html/services.php'); ?>
 
-                <?php include('html/portfolio.php'); ?>
-                
-                </div>
+	                </div>
+	                
+	                <div class="col-md-5">
 
-            </div>
-        
+	                <?php include('html/portfolio.php'); ?>
+	                
+	                </div>
+
+	            </div>
+	        
+	        </div>
         </div>
+        
+       
         
         <?php include('html/contact.php'); ?>
         
