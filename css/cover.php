@@ -62,4 +62,5 @@
     background-size: auto 100%;
     padding: 39px 0 39px 0;
     text-align: center;
+    font-family: LaoUI;
 }

@@ -22,4 +22,10 @@
 }
 #services .panel-group {
 	padding-top: 23px;
+	font-family: Source Sans Pro;
+}
+#services h2{
+	font-weight: bold;
+	font-size: 38px;
+	font-family: LaoUI-Bold;
 }

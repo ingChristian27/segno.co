@@ -40,5 +40,11 @@ padding: 97px 0px;
 	background-image: url('images/p.jpg');
 }
 #portfolio-slider{
-	padding-top: 23px;
+	padding-top: 31px;
+	font-family: Source Sans Pro;
+}
+#portfolioh2{
+	font-weight: bold;
+	font-size: 38px;
+	font-family: LaoUI-Bold;
 }

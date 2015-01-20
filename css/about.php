@@ -4,11 +4,13 @@
 #about h2{
 	font-weight: bold;
 	font-size: 38px;
+	font-family: LaoUI-Bold;
 }
 #about p{
 	font-size: 18px;
 	font-weight: normal;
 	padding-top: 34px;
+	font-family: Source Sans Pro;
 }
 div#about {
 	background-image: url('images/complemento.jpg');
