@@ -22,25 +22,44 @@
 	background-repeat: repeat;
 
 }
-#logo{
-    background: url("images/logo.fw.png") no-repeat;
+#logo {
     height: 140px;
     display: block;
-    padding: 24px;
+    padding: 24px 24px 24px 0;
+    text-align: center;
     position: absolute;
     top: 50%;
     margin-top: -75px;
+    width: 46%;
+    background-size: auto 100%;
+    /* background: <?php echo rgba($colors['white'], .9) ?>*/
+}
+#logo::before {
+    content: '';
+    background: url("images/logo.fw.png") no-repeat 100%;
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: -30px;
+}
+#logo > img {
+    position: relative;
 }
 #slogan {
-	background-image: url("images/slogan.png");
-	height: 108px;
-	display: block;
-	background-position: center center;
-	color: #fff;
-	font-size: 26px;
+    background: url("images/slogan.png") no-repeat 0;
+    height: 108px;
+    display: block;
+    color: #fff;
+    font-size: 26px;
     position: absolute;
     top: 50%;
-    margin-top: -53px;
+    margin-top: -60px;
     margin-bottom: 0;
     right: 0;
+    width: 54%;
+    background-size: auto 100%;
+    padding: 39px 0 39px 0;
+    text-align: center;
 }
