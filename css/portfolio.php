@@ -26,8 +26,19 @@
 
 div#sections {
 background-image: url('images/complemento.jpg');
-background-repeat: no-repeat;
+background-repeat: repeat-x;
 background-position: center bottom; 
 background-color: #1c3a35;
 padding: 97px 0px;
+}
+
+#portfolio h2::first-letter {
+	font-size: 0;
+	padding: 45px 27px 20px 27px;
+	margin: 0px 8px 0px 0px;
+	height: 30px;
+	background-image: url('images/p.jpg');
+}
+#portfolio-slider{
+	padding-top: 23px;
 }
