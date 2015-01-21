@@ -31,11 +31,7 @@ div#sections {
 }
 
 #portfolio h2::first-letter {
-	font-size: 0;
-	padding: 45px 27px 20px 27px;
-	margin: 0px 8px 0px 0px;
-	height: 30px;
-	background-image: url('images/p.jpg');
+<?php echo $title_first_letter ?>;
 }
 #portfolio-slider{
 	padding-top: 31px;

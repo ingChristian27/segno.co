@@ -28,7 +28,7 @@ function title_first_letter_function($color1, $color2, $color3) {
     $border = 'border: 2px solid ' . $color3 . "; \r\n";
     $outline = 'box-shadow: 0px 0px 0px 2px ' . $color2 . "; \r\n";
     $bg = 'background: ' . $color2 . "; \r\n";
-    $others = 'padding: 0px 8px 5px;' . "\r\n" . 'margin-right: 5px';
+    $others = 'padding: 0px 8px 5px;' . "\r\n" . 'margin-right: 8px';
     
     return $color . $border . $outline . $bg . $others;
         
