@@ -37,7 +37,7 @@
 #services .panel-group > .panel > .panel-heading > .panel-title > a:hover, 
 #services .panel-group > .panel > .panel-heading > .panel-title > a:focus, 
 #services .panel-group > .panel > .panel-heading > .panel-title > a:active { 
-    background: #A4AE09 !important;
+    
 }
 #services .panel-group > .panel > .panel-heading > .panel-title > .collapsed {
 	background: url('images/viñeta.jpg') !important;
