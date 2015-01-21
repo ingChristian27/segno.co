@@ -65,3 +65,17 @@
     text-align: center;
     font-family: LaoUI;
 }
+#lang_left{
+    height: 19px;
+    margin: 1px 0px 0px 1px;
+    color:#1c3a35;
+}
+#lang_rigth{
+    height: 19px;
+    margin: 1px -1px 0px -2px;
+    color:#1c3a35;
+}
+.lang_active{
+    background: #44564e;
+     color: #fff;
+}
