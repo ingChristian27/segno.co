@@ -6,7 +6,7 @@
     <?php echo $title_first_letter ?>;
 }
 #services .panel-group {
-	padding-top: 23px;
+	padding-top: 30px;
 	font-family: Source Sans Pro;
 }
 #services .panel-group > .panel {
@@ -51,9 +51,9 @@ visibility: visible;
 }
 .panel-default>.panel-heading+.panel-collapse>.panel-body {
 	margin-top: -7px;
-	border-color: #0E1D1A;
+	border-color: <?php echo $colors['dark-green-1'] ?>;
 	border-style: solid;
 	border-width: 2px;
 	font-size: 14px;
-	font-family: Source Sans Pro;
+	<?php echo $source_sans_pro ?>;
 }
