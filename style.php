@@ -6,7 +6,8 @@ header("Content-type: text/css");
 $font_size = '62.5%';
 
 // Fonts
-
+$laoUI = 'font-family: "LaoUI", Arial, sans-serif';
+$source_sans_pro = 'font-family: "Source Sans Pro", Arial, sans-serif';
 
 // Colors:
 $colors = array(
@@ -19,6 +20,19 @@ $colors = array(
     'white' => '#fff'
     
 );
+
+// First Letter style on Titles
+$title_first_letter = title_first_letter_function($colors['red'], $colors['dark-green-1'], $colors['green']);
+function title_first_letter_function($color1, $color2, $color3) {
+    $color = 'color: ' . $color1 . "; \r\n";
+    $border = 'border: 2px solid ' . $color3 . "; \r\n";
+    $outline = 'box-shadow: 0px 0px 0px 2px ' . $color2 . "; \r\n";
+    $bg = 'background: ' . $color2 . "; \r\n";
+    $others = 'padding: 0px 8px 5px;' . "\r\n" . 'margin-right: 5px';
+    
+    return $color . $border . $outline . $bg . $others;
+        
+};
 
 // RGBA colors
 function rgba($hex, $a) {
