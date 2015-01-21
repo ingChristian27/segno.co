@@ -45,3 +45,15 @@
 	background-repeat: no-repeat !important;
 	padding-left: 25px !important;
 }
+
+#services .panel-group > .panel > .collapse.in, #services .panel-group > .panel > .collapsing, #services .panel-group > .panel > .collapse.in, #services .panel-group > .panel > .collapsing {
+visibility: visible;
+}
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+	margin-top: -7px;
+	border-color: #0E1D1A;
+	border-style: solid;
+	border-width: 2px;
+	font-size: 14px;
+	font-family: Source Sans Pro;
+}
