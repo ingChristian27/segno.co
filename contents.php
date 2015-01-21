@@ -16,11 +16,11 @@ $about = array('title' => 'Quienes Somos',
 
 // SERVICES
 $services = array('title' => 'Servicios',
-                  'tabs' => array(array('title' => 'Diseño gráfico de sitios web', 'desc' => ''),
-                                  array('title' => 'Desarrollo web en HTML5', 'desc' => ''),
-                                  array('title' => 'Programación de animaciones e interacciones', 'desc' => ''),
-                                  array('title' => 'Programación de web apps y bases de datos', 'desc' => ''),
-                                  array('title' => 'Soporte y asesoría', 'desc' => '')
+                  'tabs' => array(array('title' => 'Diseño gráfico de sitios web', 'desc' => '<b>Diseño gráfico de sitios web</b><br/>Diseño gráfico de sitios web'),
+                                  array('title' => 'Desarrollo web en HTML5', 'desc' => '<b>Diseño gráfico de sitios web</b><br/>Diseño gráfico de sitios web'),
+                                  array('title' => 'Programación de animaciones e interacciones', 'desc' => '<b>Diseño gráfico de sitios web</b><br/>Diseño gráfico de sitios web'),
+                                  array('title' => 'Programación de web apps y bases de datos', 'desc' => '<b>Diseño gráfico de sitios web</b><br/>Diseño gráfico de sitios web'),
+                                  array('title' => 'Soporte y asesoría', 'desc' => '<b>Diseño gráfico de sitios web</b><br/>Diseño gráfico de sitios web')
                              )
                  );
 
