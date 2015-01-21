@@ -1,4 +1,25 @@
-#services .panel-default>.panel-heading {
+#services > h2 {
+	font-weight: bold;
+	font-size: 38px;
+}
+#services > h2::first-letter {
+    <?php echo $title_first_letter ?>;
+}
+#services .panel-group {
+	padding-top: 23px;
+	font-family: Source Sans Pro;
+}
+#services .panel-group > .panel {
+	background-color: #1C3A35;
+	border: none;
+}
+#services .panel-group > .panel > .collapse.in, 
+#services .panel-group > .panel > .collapsing, 
+#services .panel-group > .panel > .collapse.in, 
+#services .panel-group > .panel > .collapsing {
+	visibility: hidden;
+}
+#services .panel-group > .panel > .panel-heading {
 	color: #fff;
 	font-size: 18px;
 	background-color: #0e1d1a;
@@ -6,43 +27,21 @@
 	margin-bottom: 4px;
 	height: 40px;
 }
-#services  .panel{
-	background-color: #1C3A35;
-	border: none;
-}
-#services .collapse.in, #services .collapsing, #services a.collapse.in, #services a.collapsing{
-	visibility: hidden;
-
-}
-#services a{
+#services .panel-group > .panel > .panel-heading > .panel-title >  a {
 	background: url('images/viñeta-1.jpg') ;
 	background-position: left center ;
 	background-repeat: no-repeat ;
 	padding-left: 25px ;
 	
 }
-a.collapsed {
+#services .panel-group > .panel > .panel-heading > .panel-title > a:hover, 
+#services .panel-group > .panel > .panel-heading > .panel-title > a:focus, 
+#services .panel-group > .panel > .panel-heading > .panel-title > a:active { 
+    background: #A4AE09 !important;
+}
+#services .panel-group > .panel > .panel-heading > .panel-title > .collapsed {
 	background: url('images/viñeta.jpg') !important;
 	background-position: left center !important;
 	background-repeat: no-repeat !important;
 	padding-left: 25px !important;
-}
-#service  a:hover, #service  a:focus, #service a:active { 
-    background: #A4AE09 !important;
-}
-#services h2::first-letter {
-	font-size: 0;
-	padding: 45px 27px 20px 27px;
-	margin: 0px 8px 0px 0px;
-	height: 30px;
-	background-image: url('images/s.jpg');
-}
-#services .panel-group {
-	padding-top: 23px;
-	font-family: Source Sans Pro;
-}
-#services h2{
-	font-weight: bold;
-	font-size: 38px;
-	font-family: LaoUI-Bold;
 }

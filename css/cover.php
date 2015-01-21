@@ -12,7 +12,7 @@
                         -ms-behavior: url(/backgroundsize.min.htc);
     position: relative;
 }
-#lang {
+#cover #lang {
 	width: 220px;
 	height: 27px;
 	border-style: solid;
@@ -23,7 +23,7 @@
 	margin-right: 5%;
 
 }
-#logo {
+#cover #logo {
     height: 140px;
     display: block;
     padding: 24px 24px 24px 0;
@@ -35,7 +35,7 @@
     background-size: auto 100%;
     /* background: <?php echo rgba($colors['white'], .9) ?>*/
 }
-#logo::before {
+#cover #logo::before {
     content: '';
     background: url("images/logo.fw.png") no-repeat 100%;
     position: absolute;
@@ -45,14 +45,14 @@
     left: 0;
     right: -30px;
 }
-#logo > img {
+#cover #logo > img {
     position: relative;
 }
-#slogan {
+#cover #slogan {
     background: url("images/slogan.png") no-repeat 0;
     height: 108px;
     display: block;
-    color: #fff;
+    color: <?php echo $colors['white'] ?>;
     font-size: 26px;
     position: absolute;
     top: 50%;
@@ -63,19 +63,18 @@
     background-size: auto 100%;
     padding: 39px 0 39px 0;
     text-align: center;
-    font-family: LaoUI;
 }
-#lang_left{
+#cover #lang_left{
     height: 19px;
     margin: 1px 0px 0px 1px;
-    color:#1c3a35;
+    color:<?php echo $colors['green'] ?>;
 }
-#lang_rigth{
+#cover #lang_rigth{
     height: 19px;
     margin: 1px -1px 0px -2px;
-    color:#1c3a35;
+    color:<?php echo $colors['green'] ?>;
 }
-.lang_active{
+#cover .lang_active{
     background: #44564e;
-     color: #fff;
+     color: <?php echo $colors['white'] ?>;
 }
