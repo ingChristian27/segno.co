@@ -34,7 +34,7 @@ require('contents.php');
 <html lang="es">
    
     <head>
-        <?php include('html/head.php'); ?>
+        <?php get_header(); ?>
     </head>
     
     <body>
@@ -68,6 +68,8 @@ require('contents.php');
        
         
         <?php include('html/contact.php'); ?>
+        
+        <?php get_footer(); ?>
         
         <div class="copyright">
             <?php echo $copyright ?>
