@@ -45,10 +45,13 @@
 	padding-left: 25px !important;
 }
 
-#services .panel-group > .panel > .collapse.in, #services .panel-group > .panel > .collapsing, #services .panel-group > .panel > .collapse.in, #services .panel-group > .panel > .collapsing {
-visibility: visible;
+#services .panel-group > .panel > .collapse.in, 
+#services .panel-group > .panel > .collapsing, 
+#services .panel-group > .panel > .collapse.in, 
+#services .panel-group > .panel > .collapsing {
+    visibility: visible;
 }
-.panel-default>.panel-heading+.panel-collapse>.panel-body {
+#services .panel-default > .panel-heading + .panel-collapse > .panel-body {
 	margin-top: -7px;
 	border-color: <?php echo $colors['dark-green-1'] ?>;
 	border-style: solid;
