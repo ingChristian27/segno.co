@@ -1,8 +1,10 @@
+#portfolio {
+    padding-top: 60px;
+}
 #portfolio h2 {
 	font-weight: bold;
 	font-size: 38px;
 }
-
 #portfolio h2::first-letter {
 	<?php echo $title_first_letter ?>;
 }
@@ -69,11 +71,4 @@
     padding-left: 40px;
     margin-top: -9px;
     font-size: 1px;
-}
-#portfolio #sections {
-    background-image: url('images/complemento.jpg');
-    background-repeat: repeat-x;
-    background-position: center bottom; 
-    background-color: #1c3a35;
-    padding: 97px 0px;
 }

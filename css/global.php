@@ -19,6 +19,7 @@
 body {
     color: #fff;
     <?php echo $source_sans_pro ?>;
+    background-color: <?php echo $colors['green'] ?>;
 }
 h1, h2, h3, h4, h5, h6 {
     <?php echo $laoUI ?>;

@@ -34,7 +34,7 @@ require('contents.php');
 <html lang="es">
    
     <head>
-        <?php get_header(); ?>
+        <?php require('header.php') ?>
     </head>
     
     <body>
@@ -42,34 +42,32 @@ require('contents.php');
         <?php include('html/cover.php'); ?>
         
         <?php include('html/about.php'); ?>
+        
+        <div class="container">
 
-        <div id="sections">
-	        <div class="container">
-	        
-	            <div class="row">
+            <div class="row">
 
-	                <div class="col-md-7">
+                <div class="col-md-7">
 
-	                    <?php include('html/services.php'); ?>
+                    <?php include('html/services.php'); ?>
 
-	                </div>
-	                
-	                <div class="col-md-5">
+                </div>
 
-	                <?php include('html/portfolio.php'); ?>
-	                
-	                </div>
+                <div class="col-md-5">
 
-	            </div>
-	        
-	        </div>
+                <?php include('html/portfolio.php'); ?>
+
+                </div>
+
+            </div>
+                
         </div>
         
        
         
         <?php include('html/contact.php'); ?>
         
-        <?php get_footer(); ?>
+        <?php require('footer.php') ?>
         
         <div class="copyright">
             <?php echo $copyright ?>

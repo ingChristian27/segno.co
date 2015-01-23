@@ -1,3 +1,6 @@
+#services {
+    padding-top: 60px;
+}
 #services > h2 {
 	font-weight: bold;
 	font-size: 38px;
