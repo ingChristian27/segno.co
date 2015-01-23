@@ -12,17 +12,6 @@
                         -ms-behavior: url(/backgroundsize.min.htc);
     position: relative;
 }
-#cover #lang {
-	width: 220px;
-	height: 27px;
-	border-style: solid;
-	border-color: #1B3935;
-	text-transform: uppercase;
-	background-image: url("images/background_lang.png");
-	background-repeat: repeat;
-	margin-right: 5%;
-
-}
 #cover #logo {
     height: 140px;
     display: block;
@@ -33,7 +22,6 @@
     margin-top: -75px;
     width: 46%;
     background-size: auto 100%;
-    /* background: <?php echo rgba($colors['white'], .9) ?>*/
 }
 #cover #logo::before {
     content: '';
@@ -64,6 +52,19 @@
     padding: 39px 0 39px 0;
     text-align: center;
 }
+
+#cover #lang {
+	width: 220px;
+	height: 27px;
+	border-style: solid;
+	border-color: #1B3935;
+	text-transform: uppercase;
+	background-image: url("images/background_lang.png");
+	background-repeat: repeat;
+	margin-right: 5%;
+
+}
+
 #cover #lang_left{
     height: 19px;
     margin: 1px 0px 0px 1px;

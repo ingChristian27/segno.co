@@ -32,7 +32,6 @@
 	background-position: left center ;
 	background-repeat: no-repeat ;
 	padding-left: 25px ;
-	
 }
 #services .panel-group > .panel > .panel-heading > .panel-title > a:hover, 
 #services .panel-group > .panel > .panel-heading > .panel-title > a:focus, 

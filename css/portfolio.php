@@ -1,8 +1,15 @@
-#portfolio-slider .custom-slider-bar h3{
-	float: left;
-	margin: 0px;
-	font-size: 14px;
-	padding: 12px 10px;
+#portfolio h2 {
+	font-weight: bold;
+	font-size: 38px;
+}
+
+#portfolio h2::first-letter {
+	<?php echo $title_first_letter ?>;
+}
+
+#portfolio-slider{
+	padding-top: 31px;
+	font-family: Source Sans Pro;
 }
 .custom-slider-bar {
 	background-color: #0e1d1a;
@@ -12,35 +19,6 @@
 #portfolio-slider .dropdown{
 	float:left;
 }
-#portfolio-slider .custom-slider-nav{
-	text-align: right;
-}
-#portfolio-slider ul{
-	list-style-type: none;
-	padding-left: 0;
-	width: 470px;
-	margin-top: 4px;
-}
-
-div#sections {
-    background-image: url('images/complemento.jpg');
-    background-repeat: repeat-x;
-    background-position: center bottom; 
-    background-color: #1c3a35;
-    padding: 97px 0px;
-}
-
-#portfolio h2::first-letter {
-<?php echo $title_first_letter ?>;
-}
-#portfolio-slider{
-	padding-top: 31px;
-	font-family: Source Sans Pro;
-}
-#portfolio h2 {
-	font-weight: bold;
-	font-size: 38px;
-}
 #portfolio-slider button#dLabel{
 	background-image: url('images/Button1.jpg');
 	height: 37px;
@@ -49,8 +27,26 @@ div#sections {
 	border: none;
 }
 #portfolio-slider button#dLabel:focus {
-outline: -webkit-focus-ring-color auto 0px;
+	outline: -webkit-focus-ring-color auto 0px;
 }
+#portfolio-slider ul{
+	list-style-type: none;
+	padding-left: 0;
+	width: 470px;
+	margin-top: 4px;
+}
+
+#portfolio-slider .custom-slider-bar h3{
+	float: left;
+	margin: 0px;
+	font-size: 14px;
+	padding: 12px 10px;
+}
+
+#portfolio-slider .custom-slider-nav{
+	text-align: right;
+}
+
 .custom-slider-nav-l{
 	background-image: url('images/Button2.jpg');
 	height: 37px!important;
@@ -77,3 +73,12 @@ a.custom-slider-nav-r {
     margin-top: -9px;
     font-size: 1px;
 }
+div#sections {
+    background-image: url('images/complemento.jpg');
+    background-repeat: repeat-x;
+    background-position: center bottom; 
+    background-color: #1c3a35;
+    padding: 97px 0px;
+}
+
+
